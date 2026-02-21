@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-cleanroomsml`](https://www.npmjs.com/package/@aws-sdk/client-cleanroomsml/v/3.994.0).
+[`@aws-sdk/client-cleanroomsml`](https://www.npmjs.com/package/@aws-sdk/client-cleanroomsml/v/3.995.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-cleanroomsml@3.994.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-cleanroomsml@3.995.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-aRFzgUPEkulIOzTgs3Y4BtZ7b0wgbAcykAhhBDVZraVpECzu9zGVujdgYsPs7Pb0
+sha384-SO+eKmgpwZNsBqv+ECX8rx+9lNQF9aWH0blBKVhQxmlSpYucKTI+mgg4vRHOkdJ/
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-cleanroomsml": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-cleanroomsml@3.994.0/index.min.mjs"
+            "@aws-sdk/client-cleanroomsml": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-cleanroomsml@3.995.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-cleanroomsml@3.994.0/index.min.mjs": "sha384-aRFzgUPEkulIOzTgs3Y4BtZ7b0wgbAcykAhhBDVZraVpECzu9zGVujdgYsPs7Pb0"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-cleanroomsml@3.995.0/index.min.mjs": "sha384-SO+eKmgpwZNsBqv+ECX8rx+9lNQF9aWH0blBKVhQxmlSpYucKTI+mgg4vRHOkdJ/"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-cleanroomsml": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-cleanroomsml@3.994.0/index.min.mjs"
+                        "@aws-sdk/client-cleanroomsml": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-cleanroomsml@3.995.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-cleanroomsml@3.994.0/index.min.mjs": "sha384-aRFzgUPEkulIOzTgs3Y4BtZ7b0wgbAcykAhhBDVZraVpECzu9zGVujdgYsPs7Pb0"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-cleanroomsml@3.995.0/index.min.mjs": "sha384-SO+eKmgpwZNsBqv+ECX8rx+9lNQF9aWH0blBKVhQxmlSpYucKTI+mgg4vRHOkdJ/"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.994.0`)
+* Always pin to a specific version (`@3.995.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-cleanroomsml/blob/refs/tags/3.994.0/LICENSE
+https://github.com/cloud-sdk-builds/client-cleanroomsml/blob/refs/tags/3.995.0/LICENSE
 ```
 
 ---
